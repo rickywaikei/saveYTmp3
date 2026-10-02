@@ -1,0 +1,20 @@
+[project]
+name = "saveytmp3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "asyncio>=4.0.0",
+    "librosa>=1.0.0",
+    "mutagen>=1.48.1",
+    "noisereduce>=3.0.3",
+    "numpy>=2.5.2",
+    "pandas>=3.0.5",
+    "pyacoustid>=1.3.1",
+    "pydub>=0.25.1",
+    "scipy>=1.18.1",
+    "shazamio>=0.8.1",
+    "soundfile>=0.14.0",
+    "yt-dlp[default]>=2026.8.19",
+]
